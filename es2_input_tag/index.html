@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+    </head>
+    <body>
+        <!-- value=""       è il valore di defoult che ha il campo-->
+        <!-- placeholder="" è la scritta che spiega cosa inserire nel campo-->
+        <!-- name=""        è la scritta che spiega cosa inserire nel campo-->
+        <h1>Registrazione sito internet</h1>
+        <form action="Indirizzo_beckend">
+            <div><input type="text" name="nome" placeholder="Inserisci il tuo nome"></div>
+            <div><input type="text" name="cognome" placeholder="Inserisci il tuo cognome"></div>
+            <div><input type="email" name="email" placeholder="Inserisci la tua email"></div>
+            <div><select name="Regione">
+                    <option value="Lombardia">Lombardia</option>
+                    <option value="Emilia-Romagna">Emilia-Romagna</option>
+                    <option value="Basilicata">Basilicata</option>
+                </select>
+            </div>
+            <div>
+                <input type="radio" name="0-18" />
+                <label for="0-18">0-18</label>
+
+                <input type="radio" name="18+" />
+                <label for="18+">18+</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Accetto i termini e le condizioni">
+                <!-- <label for="scales">Scales</label> -->
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+
+        <!-- Altri input non utilizzati -->
+        <!-- <input type="password" name="" id=""> -->
+        <!-- <input type="date" name="" id="">     -->
+        <!-- <input type="checkbox" name="" id=""> -->
+        <!-- <input type="radio" name="" id="">    -->
+        <!-- <textarea name="bio" cols="30" rows="10"></textarea> -->
+    </body>
+</html>
