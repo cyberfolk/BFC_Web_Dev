@@ -1,0 +1,33 @@
+/* 
+ * Tre modi diversi per fare css
+ * Elencati con Specificità Decrescente
+ * - #id    -> Identidica univocamente un elemento
+ * - .class -> E' un modulo riutilizzabile. Il più usato e funzionale.
+ * - tag    -> Ogni selettore con quel preciso Tag
+*/
+
+div {
+  color: red;
+  font-size: 30px;
+  background-color: aqua;
+  border: 3px solid darkblue;
+}
+#div_3 {
+  color: green;
+  font-size: 40px;
+  background-color: chartreuse;
+  border: 4px solid darkcyan;
+}
+#div_4 {
+  color: blue;
+  font-size: 35 px;
+  background-color: darkorange;
+  border: 5px solid darkgoldenrod;
+}
+
+.speciale {
+  color: brown;
+  font-size: 25px;
+  background-color: darksalmon;
+  border: 6px solid darkgreen;
+}
