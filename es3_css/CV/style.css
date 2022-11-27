@@ -8,6 +8,9 @@ hr {
 .section_title {
   color: orange;
 }
+main {
+  padding: 8px;
+}
 h3 {
   font-style: italic;
 }
