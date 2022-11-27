@@ -5,7 +5,7 @@ header {
 hr {
   border: 2px solid orange;
 }
-h2 {
+.section_title {
   color: orange;
 }
 h3 {
