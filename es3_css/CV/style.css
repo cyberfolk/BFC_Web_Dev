@@ -1,0 +1,13 @@
+header {
+  background-color: lightgray;
+  text-align: center;
+}
+hr {
+  border: 2px solid orange;
+}
+h2 {
+  color: orange;
+}
+h3 {
+  font-style: italic;
+}
