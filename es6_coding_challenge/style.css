@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    /* questo margine è richiesto */
+    margin: 2%;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 12.5px;
+    width: 70%;
+    margin: auto;
+    padding: 60px 0 60px 0;
+    /* padding: serve per creare il margine interno al container. 
+     *          come da consegna il margine era solamente in cima e in fondo.
+     *          l'ho preso ad occhio e non sono convinto.
+     * widtdh:  è la larghezza del container. l'ho presa ad occhio */
+    /* margin:  serve per centrare il container */
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 20%;
+}
+
+.slogan {
+    color: rgb(0, 221, 0);
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 2px;
+}
+
+nav {
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+    background-color: rgb(0, 221, 0);
+    text-align: center;
+
+}
+
+button {
+    font-size: 0.7em;
+}
+
+main {
+    margin-left: 10%;
+    color: white;
+}
+
+.sez_elenco {
+    margin-top: 1em;
+}
+
+.cap_elenco {
+    display: inline-block;
+}
+
+.charge_bar {
+    border-radius: 3.125px;
+    height: 1.2em;
+}
+
+#cb1 {
+    background-color: orange;
+    width: 300px;
+}
+
+#cb2 {
+    background-color: greenyellow;
+    width: 500px;
+}
+
+#cb3 {
+    background-color: fuchsia;
+    width: 100px;
+}
