@@ -6,6 +6,7 @@
 body {
     background-image: url(img/background.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     /* questo margine è richiesto */
     margin: 2%;
 }
@@ -27,6 +28,7 @@ body {
     display: block;
     margin: auto;
     width: 20%;
+    /* display: block; necessario per centrare l'immagine del logo */
 }
 
 .slogan {
@@ -42,7 +44,6 @@ nav {
     margin: auto;
     background-color: rgb(0, 221, 0);
     text-align: center;
-
 }
 
 button {
@@ -54,30 +55,39 @@ main {
     color: white;
 }
 
-.sez_elenco {
-    margin-top: 1em;
-}
-
 .cap_elenco {
     display: inline-block;
+    font-size: 1.2em;
+    margin-top: 1.2em;
+    margin-bottom: 0;
+    /* non sono sicuro che le spaziature tra paragrafi si facciano così, ma graficamente ho ottenuto quello che volevo */
+}
+
+.elenco {
+    font-size: 0.8em;
+    margin-top: 0.3em;
+    margin-bottom: 0;
+    /* non sono sicuro che le spaziature tra paragrafi si facciano così, ma graficamente ho ottenuto quello che volevo */
 }
 
 .charge_bar {
     border-radius: 3.125px;
     height: 1.2em;
+    /* margin-top: non sono convinto di questi 2px messi li non parametrizzati. */
+    margin-top: 2px;
 }
 
 #cb1 {
-    background-color: orange;
+    background-color: #F5B453;
     width: 300px;
 }
 
 #cb2 {
-    background-color: greenyellow;
+    background-color: #1EC31E;
     width: 500px;
 }
 
 #cb3 {
-    background-color: fuchsia;
+    background-color: #BE4141;
     width: 100px;
 }
