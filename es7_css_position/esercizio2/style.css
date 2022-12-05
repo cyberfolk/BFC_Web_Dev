@@ -3,11 +3,19 @@
     font-size: 14px;
 }
 
-.riga {
+.container {
+    width: 60%;
     margin: auto;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .prodotto {
+    /* Non posso usare width: 33%; perchè inline block mi ruba dei pixel */
+    width: 32%;
     display: inline-block;
     position: relative;
 }
@@ -32,10 +40,9 @@
     bottom: 3px;
     left: 50%;
     visibility: hidden;
+    color: red;
 }
 
 .prodotto:hover > .heart {
     visibility: visible;
-    color: red;
-
 }
