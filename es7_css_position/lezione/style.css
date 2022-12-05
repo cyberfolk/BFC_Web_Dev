@@ -42,17 +42,17 @@
     background-color: yellow;
 }
 
-#_2 {
+#sqr_2 {
     position: relative;
     left: 500px;
 }
 
-#_5 {
+#sqr_5 {
     position: absolute;
     bottom: 0;
     right: 0;
 }
 
-#_7 {
+#sqr_7 {
     position: absolute;
 }

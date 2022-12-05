@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.riga {
+    margin: auto;
+}
+
+.prodotto {
+    display: inline-block;
+    position: relative;
+}
+
+.sconto {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.sconto.alto {
+    background-color: green;
+}
+
+.sconto.basso {
+    background-color: red;
+}
+
+.heart {
+    font-size: 2em;
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    visibility: hidden;
+}
+
+.prodotto:hover > .heart {
+    visibility: visible;
+    color: red;
+
+}
