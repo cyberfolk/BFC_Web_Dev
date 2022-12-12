@@ -8,9 +8,10 @@
     margin: auto;
 }
 
-img {
-    max-width: 100%;
-    max-height: 100%;
+.riga {
+    /* Serve per centrare le immagini a causa del bordo in eccedenza dovuto dal inline-block */
+    /* posso usarlo perchè gli elementi al suo interno sono online block */
+    text-align: center;
 }
 
 .prodotto {
@@ -20,10 +21,19 @@ img {
     position: relative;
 }
 
-.sconto {
+.prodotto > img {
+    width: 100%;
+}
+
+.prodotto > .sconto {
     position: absolute;
     top: 0;
     right: 0;
+    width: 40px;
+    height: 20px;
+    /* line-height: 20px; serve per fare la centratura verticale. */
+    line-height: 20px;
+    text-align: center;
 }
 
 .sconto.alto {
