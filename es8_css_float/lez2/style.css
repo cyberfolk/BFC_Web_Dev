@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --header-height: 100px;
+}
+
+body {
+    background-color: gray;
+    position: relative;
+}
+
+.layout {
+    margin: 5vw;
+}
+
+.hv_center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header, footer {
+    background-color: blue;
+    height: var(--header-height);
+    text-align: center;
+    line-height: var(--header-height);
+}
+
+main {
+    background-color: green;
+}
+
+.content {
+    background-color: rgb(187, 188, 241);
+    width: 50%;
+    float: left;
+    /*Si ripercuote su ogni elemento*/
+    padding: 1em;
+}
+
+.content.left {
+    background-color: rgb(241, 252, 91);
+    width: 25%;
+}
+
+.content.right {
+    background-color: red;
+    width: 25%;
+}
+
+/* Se non inserisco questa proprietà aggiuntiva non riusciro a vedere il container verde, perchè float ha delle problematiche. */
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: table;
+}
