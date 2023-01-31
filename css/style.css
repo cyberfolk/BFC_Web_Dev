@@ -22,24 +22,6 @@ button {
 }
 
 /* Utilities */
-.di-ib {
-    display: inline-block;
-}
-
-.fs-5rm {
-    font-size: 5rem;
-}
-
-.Tsection {
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-.task {
-    font-size: 2rem;
-    line-height: 3em;
-}
-
 .centered {
     width: 75%;
     margin: auto;
@@ -56,8 +38,10 @@ button {
     padding-left: 2rem;
 }
 
-#app-header > h1 {
+#scritta-logo {
     vertical-align: top;
+    font-size: 5rem;
+    display: inline-block
 }
 
 /* Nav */
@@ -86,6 +70,17 @@ button#add-section {
     padding-top: 2rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+}
+
+
+.Tsection {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.task {
+    font-size: 2rem;
+    line-height: 5rem;
 }
 
 section {
