@@ -21,8 +21,6 @@ button {
     border: none;
 }
 
-/* Utilities */
-
 /* Header */
 #app-header {
     background-color: white;
@@ -59,7 +57,6 @@ button#add-section {
 }
 
 /* Main */
-
 #app-main {
     width: 75%;
     margin: auto;
