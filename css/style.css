@@ -1,0 +1,21 @@
+/* Common */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serifZ;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+/* Utilities */
+
+/* Header */
+#app-header {
+    background: #F6F8F9;
+}
+
+/* Nav */
+
+/* Main */
