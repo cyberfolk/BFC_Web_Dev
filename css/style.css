@@ -22,13 +22,6 @@ button {
 }
 
 /* Utilities */
-.centered {
-    width: 75%;
-    margin: auto;
-    background-color: white;
-    padding-left: 5rem;
-    padding-right: 5rem;
-}
 
 /* Header */
 #app-header {
@@ -49,8 +42,8 @@ button {
     margin-top: 4rem;
     padding-top: 2rem;
     padding-bottom: 1rem;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     border-bottom: 4px solid #F6F8F9;
 }
 
@@ -66,25 +59,32 @@ button#add-section {
 }
 
 /* Main */
+
 #app-main {
+    width: 75%;
+    margin: auto;
+    background-color: white;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+/* tasks */
+#tasks {
     padding-top: 2rem;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 
 .Tsection {
-    font-size: 2rem;
+    margin-top: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
 .task {
     font-size: 2rem;
     line-height: 5rem;
-}
-
-section {
-    margin-bottom: 2rem;
 }
 
 .etiquette::before {
