@@ -5,15 +5,34 @@
     font-family: Arial, Helvetica, sans-serifZ;
 }
 
+html {
+    font-size: 16;
+}
+
 body {
-    background: #FFFFFF;
+    background-color: #ffffff;
 }
 
 /* Utilities */
+.di-ib {
+    display: inline-block;
+}
+
+.fs-5rm {
+    font-size: 5rem;
+}
+
 
 /* Header */
 #app-header {
-    background: #F6F8F9;
+    background-color: #F6F8F9;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+#app-header > h1 {
+    vertical-align: top;
 }
 
 /* Nav */
