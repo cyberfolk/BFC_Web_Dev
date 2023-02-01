@@ -45,6 +45,23 @@ body {
     color: var(--tb-shadow);
 }
 
+.pl-3 {
+    padding-left: 3rem;
+}
+
+.py-1 {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.card {
+    background-color: var(--tb-ligher);
+}
+
+.card-header {
+    border-bottom: 2px solid var(--tb-light);
+}
+
 /* #endregion Utility Classes */
 
 /* #region Header */
