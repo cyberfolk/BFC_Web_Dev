@@ -93,37 +93,32 @@ li {
     font-size: 0.75rem;
     border-radius: 1rem;
     padding: 0.25rem 0.5rem;
+    color: var(--tb-ligher)
 }
 
 /* #region bg-colors */
 .bg-editorial {
     background-color: var(--tb-primary);
-    color: var(--tb-ligher)
 }
 
 .bg-goals {
     background-color: var(--tb-goals);
-    color: var(--tb-ligher)
 }
 
 .bg-recruiting {
     background-color: var(--tb-recruiting);
-    color: var(--tb-ligher)
 }
 
 .bg-mobile {
     background-color: var(--tb-mobile);
-    color: var(--tb-ligher)
 }
 
 .bg-website {
     background-color: var(--tb-website);
-    color: var(--tb-ligher)
 }
 
 .bg-sales {
     background-color: var(--tb-sales);
-    color: var(--tb-ligher)
 }
 
 /* #endregion bg-colors */
@@ -156,7 +151,6 @@ li {
 }
 
 /* #endregion Header */
-
 
 /* #region main */
 .icon {
