@@ -10,6 +10,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+li {
+    padding-bottom: 0.75rem;
+}
+
 :root {
     --tb-shadow: #9d9d9d;
     --tb-light: #f7f8f8;
@@ -27,6 +31,11 @@ body {
 /* #endregion Common */
 
 /* #region Utility Classes */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
 .btn {
     background-color: transparent;
     border: none;
@@ -72,97 +81,103 @@ body {
     border-bottom: 2px solid var(--tb-light);
 }
 
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.list-unstyled {
+    list-style: none;
+}
+
+.badge {
+    font-size: 0.75rem;
+    border-radius: 1rem;
+    padding: 0.25rem 0.5rem;
+}
+
+/* #region bg-colors */
+.bg-editorial {
+    background-color: var(--tb-primary);
+    color: var(--tb-ligher)
+}
+
+.bg-goals {
+    background-color: var(--tb-goals);
+    color: var(--tb-ligher)
+}
+
+.bg-recruiting {
+    background-color: var(--tb-recruiting);
+    color: var(--tb-ligher)
+}
+
+.bg-mobile {
+    background-color: var(--tb-mobile);
+    color: var(--tb-ligher)
+}
+
+.bg-website {
+    background-color: var(--tb-website);
+    color: var(--tb-ligher)
+}
+
+.bg-sales {
+    background-color: var(--tb-sales);
+    color: var(--tb-ligher)
+}
+
+/* #endregion bg-colors */
+
+
 /* #endregion Utility Classes */
 
 /* #region Header */
 #app-header {
-    background-color: white;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 2rem;
+    padding: 0.75rem 2rem;
+    height: 60px;
+    background-color: var(--tb-ligher);
+    box-shadow: 0 0 10px var(--tb-shadow);
 }
 
-#scritta-logo {
-    vertical-align: top;
-    font-size: 5rem;
-    display: inline-block
+.logo {
+    height: 100%;
+}
+
+.logo_icon {
+    height: 100%;
+    vertical-align: middle;
+}
+
+.logo_text {
+    display: inline-block;
+    font-size: 2.5rem;
+    vertical-align: middle;
+    color: var(--tb-dark);
 }
 
 /* #endregion Header */
 
 
 /* #region main */
-#nav {
-    margin-top: 4rem;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    border-bottom: 4px solid #F6F8F9;
+.icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+    font-size: 0.65rem;
+    margin-right: 0.5rem;
 }
 
-#app-main {
-    width: 75%;
-    margin: auto;
-    background-color: white;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+.check {
+    border: 1px solid var(--tb-recruiting);
+    color: var(--tb-recruiting)
 }
 
-/* tasks */
-#tasks {
-    padding-top: 2rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
-}
-
-
-.Tsection {
-    margin-top: 2rem;
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-
-.task {
-    font-size: 2rem;
-    line-height: 5rem;
-}
-
-/* SISTEMARE LE ETIQUETTE TOGLIENDO CONTENT*/
-.etiquette::before {
-    border-radius: 1.5rem;
-    padding: 1rem;
-    color: white;
-}
-
-.editorial::before {
-    content: "Editorial";
-    background-color: #47ADF1;
-}
-
-.q1goals::before {
-    content: "Q1 Goals";
-    background-color: #9C72E4;
-}
-
-.recruiting::before {
-    content: "Recruiting";
-    background-color: #64C0A9;
-}
-
-.mobile::before {
-    content: "Mobile";
-    background-color: #F29E33;
-}
-
-.website::before {
-    content: "Website";
-    background-color: #D863A1;
-}
-
-.sales::before {
-    content: "Sales";
-    background-color: #B0C926;
+.cross {
+    border: 1px solid var(--tb-danger);
+    color: var(--tb-danger)
 }
 
 /* #endregion main */
