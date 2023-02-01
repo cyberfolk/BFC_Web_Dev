@@ -28,12 +28,22 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-button {
-    padding: 1rem;
-    font-size: 1rem;
-    border-radius: 0.5rem;
-    margin-left: 0.2rem;
+.btn {
+    background-color: transparent;
     border: none;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.9rem;
+}
+
+.btn-primary {
+    background-color: var(--tb-primary);
+    color: var(--tb-ligher);
+}
+
+.btn-outline {
+    border: 1px solid var(--tb-shadow);
+    color: var(--tb-shadow);
 }
 
 /* Header */
@@ -60,16 +70,6 @@ button {
     border-bottom: 4px solid #F6F8F9;
 }
 
-button#add-task {
-    background-color: none;
-    color: #CED3D7;
-    border: 1px solid #CED3D7;
-}
-
-button#add-section {
-    background-color: #47ADF1;
-    color: #E5F4FD;
-}
 
 /* Main */
 #app-main {
