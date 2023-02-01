@@ -183,5 +183,11 @@ li {
 /* #endregion main */
 
 /* #region footer */
+#app-footer {
+    height: 60px;
+    background-color: var(--tb-ligher);
+    box-shadow: 0 0 10px var(--tb-shadow);
+    line-height: 60px;
+}
 
 /* #endregion footer */
