@@ -1,8 +1,13 @@
-/* Common */
+/* #region Common */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: var(--tb-light);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 :root {
@@ -19,15 +24,9 @@
     --tb-danger: red;
 }
 
-html {
-    font-size: 16;
-}
+/* #endregion Common */
 
-body {
-    background-color: var(--tb-light);
-    font-family: Arial, Helvetica, sans-serif;
-}
-
+/* #region Utility Classes */
 .btn {
     background-color: transparent;
     border: none;
@@ -46,7 +45,9 @@ body {
     color: var(--tb-shadow);
 }
 
-/* Header */
+/* #endregion Utility Classes */
+
+/* #region Header */
 #app-header {
     background-color: white;
     padding-top: 1rem;
@@ -60,7 +61,10 @@ body {
     display: inline-block
 }
 
-/* Nav */
+/* #endregion Header */
+
+
+/* #region main */
 #nav {
     margin-top: 4rem;
     padding-top: 2rem;
@@ -70,8 +74,6 @@ body {
     border-bottom: 4px solid #F6F8F9;
 }
 
-
-/* Main */
 #app-main {
     width: 75%;
     margin: auto;
@@ -135,3 +137,9 @@ body {
     content: "Sales";
     background-color: #B0C926;
 }
+
+/* #endregion main */
+
+/* #region footer */
+
+/* #endregion footer */
