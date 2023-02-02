@@ -29,6 +29,10 @@ body {
 /* #endregion Header */
 
 /* #region main */
+.profile {
+    float: left;
+}
+
 .profile > img, .profile_data {
     float: left;
 }
