@@ -55,9 +55,7 @@ header > h1, p {
 .profile {
     float: left;
     width: calc(100% / 3 - 2rem);
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 3rem;
+    margin: 1.5rem 1rem;
     box-shadow: 0 0 10px var(--shadow);
 }
 
@@ -75,7 +73,6 @@ header > h1, p {
 
 .profile > .profile_data {
     width: calc(100% - var(--dim-img));
-
 }
 
 .profile_data > .name {
