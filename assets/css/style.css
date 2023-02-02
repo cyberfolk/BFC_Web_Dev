@@ -163,6 +163,7 @@ li {
     text-align: center;
     font-size: 0.65rem;
     margin-right: 0.5rem;
+    vertical-align: middle;
 }
 
 .check::before {
