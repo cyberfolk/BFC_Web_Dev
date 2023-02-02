@@ -17,12 +17,22 @@ body {
     margin: auto;
 }
 
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
 /* #endregion Utility Classes */
 
 /* #region Header */
 /* #endregion Header */
 
 /* #region main */
+.profile > img, .profile_data {
+    float: left;
+}
+
 /* #endregion main */
 
 /* #region footer */
