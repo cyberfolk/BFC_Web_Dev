@@ -153,7 +153,8 @@ li {
 /* #endregion Header */
 
 /* #region main */
-.icon {
+
+.icon::before {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -164,12 +165,14 @@ li {
     margin-right: 0.5rem;
 }
 
-.check {
+.check::before {
+    content: "\2713";
     border: 1px solid var(--tb-recruiting);
     color: var(--tb-recruiting)
 }
 
-.cross {
+.cross::before {
+    content: "\2717";
     border: 1px solid var(--tb-danger);
     color: var(--tb-danger)
 }
