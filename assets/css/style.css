@@ -19,6 +19,7 @@ h1 {
     --h1-title: #E53170;
     --link: #9eccfd;
     --shadow: #9d9d9d;
+    --dim-img: 100px;
 }
 
 /* #endregion Common */
@@ -53,7 +54,7 @@ header > h1, p {
 /* #region main */
 .profile {
     float: left;
-    width: calc(100% / 3 .1);
+    width: calc(100% / 3 - 2rem);
     margin-left: 1rem;
     margin-right: 1rem;
     margin-top: 3rem;
@@ -64,15 +65,16 @@ header > h1, p {
     padding: 0.75rem;
     color: var(--bg-general);
     background-color: var(--bg-profile);
+    line-height: 1.5rem;
 }
 
 .profile > img, .profile_data {
     float: left;
-    height: 80px;
+    height: var(--dim-img);
 }
 
 .profile > .profile_data {
-    width: calc(100% - 80px);
+    width: calc(100% - var(--dim-img));
 
 }
 
