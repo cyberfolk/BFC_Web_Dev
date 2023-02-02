@@ -6,7 +6,19 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fredoka', sans-serif;
+}
+
+h1 {
+    color: var(--h1-title);
+}
+
+:root {
+    --bg-profile: #0F0E17;
+    --bg-general: #FFFFFE;
+    --h1-title: #E53170;
+    --link: #9eccfd;
+    --shadow: #9d9d9d;
 }
 
 /* #endregion Common */
@@ -23,18 +35,53 @@ body {
     display: table;
 }
 
+.px-1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 /* #endregion Utility Classes */
 
 /* #region Header */
+header > h1, p {
+    padding-top: 3rem;
+    text-align: center;
+}
+
 /* #endregion Header */
 
 /* #region main */
 .profile {
     float: left;
+    width: calc(100% / 3 .1);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 3rem;
+    box-shadow: 0 0 10px var(--shadow);
+}
+
+.profile_data {
+    padding: 0.75rem;
+    color: var(--bg-general);
+    background-color: var(--bg-profile);
 }
 
 .profile > img, .profile_data {
     float: left;
+    height: 80px;
+}
+
+.profile > .profile_data {
+    width: calc(100% - 80px);
+
+}
+
+.profile_data > .name {
+    font-weight: bold;
+}
+
+.profile_data > .mail > a {
+    color: var(--link);
 }
 
 /* #endregion main */
