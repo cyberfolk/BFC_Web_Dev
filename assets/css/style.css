@@ -11,6 +11,11 @@ body {
 
 h1 {
     color: var(--h1-title);
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.2rem;
 }
 
 :root {
@@ -41,9 +46,16 @@ h1 {
     padding-right: 1rem;
 }
 
-.my-2 {
+.mt-2 {
     margin-top: 2rem;
-    margin-bottom: 2rem;
+}
+
+.mb-3 {
+    margin-bottom: 3rem;
+}
+
+.mb-1_5 {
+    margin-bottom: 1.5rem;
 }
 
 /* #endregion Utility Classes */
