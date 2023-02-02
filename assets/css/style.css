@@ -73,22 +73,19 @@ header > h1, p {
     width: calc(100% / 3 - 2rem);
     margin: 1.5rem 1rem;
     box-shadow: 0 0 10px var(--shadow);
+    background-color: var(--bg-profile);
+
 }
 
 .profile_data {
     padding: 0.75rem;
     color: var(--bg-general);
-    background-color: var(--bg-profile);
     line-height: 1.5rem;
 }
 
 .profile > img, .profile_data {
     float: left;
     height: var(--dim-img);
-}
-
-.profile > .profile_data {
-    width: calc(100% - var(--dim-img));
 }
 
 .profile_data > .name {
