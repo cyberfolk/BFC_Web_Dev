@@ -41,11 +41,15 @@ h1 {
     padding-right: 1rem;
 }
 
+.my-2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 /* #endregion Utility Classes */
 
 /* #region Header */
 header > h1, p {
-    padding-top: 3rem;
     text-align: center;
 }
 
