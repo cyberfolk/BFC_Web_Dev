@@ -11,8 +11,12 @@ body {
 
 /* #endregion Common */
 
-
 /* #region Utility Classes */
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
 /* #endregion Utility Classes */
 
 /* #region Header */
