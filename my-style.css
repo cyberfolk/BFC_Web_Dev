@@ -39,12 +39,12 @@
 
 /* #region Esercizio 4 */
 .ex-4-square {
-    transition: visibility 5s;
+    transition: background-color 5s;
     animation-timing-function: linear;
 }
 
 .ex-4-square:hover {
-    visibility: hidden;
+    background-color: #F5F5F5;
 }
 
 /* #endregion Esercizio 4 */
