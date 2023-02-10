@@ -145,4 +145,45 @@
 
 /* #region Esercizio 12 */
 
+.ex-12-button {
+    position: relative;
+}
+
+.ex-12-button:hover > .ex-12-top-white {
+    animation: move-top 4s linear;
+}
+
+.ex-12-button:hover > .ex-12-bottom-white {
+    animation: move-bottom 4s linear;
+}
+
+.ex-12-top-white,
+.ex-12-bottom-white {
+    background-color: blue;
+    position: absolute;
+}
+
+@keyframes move-top {
+    50% {
+        left: calc(100% - 60px);
+    }
+
+    100% {
+        left: 10%;
+    }
+}
+
+@keyframes move-bottom {
+    50% {
+        right: calc(100% - 60px);
+    }
+
+    100% {
+        right: 20%;
+    }
+}
+
+
+
+
 /* #endregion Esercizio 12*/
