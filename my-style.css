@@ -1,3 +1,5 @@
+/* #region Esercizio 1 */
+
 .ex-1-square {
     transition: background-color 5s;
     animation-timing-function: linear;
@@ -7,6 +9,10 @@
     background-color: red;
 }
 
+/* #endregion Esercizio 1 */
+
+/* #region Esercizio 2 */
+
 .ex-2-square {
     transition: width 5s;
     animation-timing-function: linear;
@@ -15,3 +21,54 @@
 .ex-2-square:active {
     width: 100%;
 }
+
+/* #endregion Esercizio 2 */
+
+/* #region Esercizio 3 */
+
+.ex-2-square {
+    transition: width 5s;
+    animation-timing-function: linear;
+}
+
+.ex-2-square:active {
+    width: 100%;
+}
+
+/* #endregion Esercizio 3 */
+
+/* #region Esercizio 4 */
+
+/* #endregion Esercizio 4 */
+
+/* #region Esercizio 5 */
+
+/* #endregion Esercizio 5 */
+
+/* #region Esercizio 6 */
+
+/* #endregion Esercizio 6 */
+
+/* #region Esercizio 7 */
+
+/* #endregion Esercizio 7 */
+
+/* #region Esercizio 8 */
+
+/* #endregion Esercizio 8 */
+
+/* #region Esercizio 9 */
+
+/* #endregion Esercizio 9 */
+
+/* #region Esercizio 10 */
+
+/* #endregion Esercizio 10 */
+
+/* #region Esercizio 11 */
+
+/* #endregion Esercizio 11 */
+
+/* #region Esercizio 12 */
+
+/* #endregion Esercizio 12*/
