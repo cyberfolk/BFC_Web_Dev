@@ -78,7 +78,13 @@
 /* #endregion Esercizio 6 */
 
 /* #region Esercizio 7 */
+.ex-7-img {
+    transition: filter 5s;
+}
 
+.ex-7-img:hover {
+    filter: grayscale(1) invert(1) blur(5px);
+}
 
 /* #endregion Esercizio 7 */
 
