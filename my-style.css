@@ -127,6 +127,19 @@
 /* #endregion Esercizio 10 */
 
 /* #region Esercizio 11 */
+.ex-11-icon:hover {
+    animation: spin2 1s linear;
+}
+
+@keyframes spin2 {
+    90% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
 
 /* #endregion Esercizio 11 */
 
