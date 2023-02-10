@@ -50,6 +50,18 @@
 /* #endregion Esercizio 4 */
 
 /* #region Esercizio 5 */
+.ex-5-square {
+    transition: transform 5s;
+    animation-timing-function: linear;
+}
+
+.ex-5-square:hover {
+    transform: scale(2);
+}
+
+.ex-5-square:active {
+    transform: scale(0.5);
+}
 
 
 /* #endregion Esercizio 5 */
