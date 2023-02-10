@@ -89,6 +89,14 @@
 /* #endregion Esercizio 7 */
 
 /* #region Esercizio 8 */
+.ex-8-img {
+    transition: 5s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(1) invert(1);
+    border-radius: 25%;
+}
 
 /* #endregion Esercizio 8 */
 
