@@ -38,10 +38,19 @@
 /* #endregion Esercizio 3 */
 
 /* #region Esercizio 4 */
+.ex-4-square {
+    transition: visibility 5s;
+    animation-timing-function: linear;
+}
+
+.ex-4-square:hover {
+    visibility: hidden;
+}
 
 /* #endregion Esercizio 4 */
 
 /* #region Esercizio 5 */
+
 
 /* #endregion Esercizio 5 */
 
