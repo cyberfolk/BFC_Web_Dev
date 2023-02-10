@@ -101,6 +101,15 @@
 /* #endregion Esercizio 8 */
 
 /* #region Esercizio 9 */
+.ex-9-img {
+    transition: 5s;
+}
+
+.ex-9-img:hover {
+    filter: grayscale(1) invert(1);
+    border-radius: 25%;
+    transform: scale(1.5);
+}
 
 /* #endregion Esercizio 9 */
 
