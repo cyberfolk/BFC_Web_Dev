@@ -67,10 +67,18 @@
 /* #endregion Esercizio 5 */
 
 /* #region Esercizio 6 */
+.ex-6-img {
+    transition: filter;
+}
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
 
 /* #endregion Esercizio 6 */
 
 /* #region Esercizio 7 */
+
 
 /* #endregion Esercizio 7 */
 
