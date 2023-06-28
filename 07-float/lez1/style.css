@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: green;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.square.left {
+    float: left;
+}
+
+.square.right {
+    float: right;
+}
+
+/* Se non inserisco questa proprietà aggiuntiva non riusciro a vedere il container verde, perchè float ha delle problematiche. */
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: table;
+}

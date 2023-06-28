@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box {
+    width: 800px;
+    height: 200px;
+    background-color: lightcyan;
+    margin: 10px;
+    padding: 10px;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.container {
+    /* padding: altrimenti non si visualizza il margine superiore e inferiore */
+    padding: 1px;
+    width: 300px;
+    position: relative;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+#sqr_2 {
+    position: relative;
+    left: 500px;
+}
+
+#sqr_5 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#sqr_7 {
+    position: absolute;
+}

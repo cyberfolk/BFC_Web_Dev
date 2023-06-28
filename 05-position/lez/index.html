@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="box">Primo esempio: sposto a destra il quadrato verde. <br>
+            Ma il quadrato blu non sale, questo perchè il quadrato verde è ancora nel flusso del documento.
+            <div id="sqr_1" class="square red">1 position static</div>
+            <div id="sqr_2" class="square green">2 position relative</div>
+            <div id="sqr_3" class="square blue">3 position static</div>
+        </div>
+
+        <div class="box">Secondo esempio: sposto il quadrato verde in angolo in basso a destra. <br>
+            Il quadrato blu sale perchè il quadrato verde è fuori dal flusso del documento.
+            <div class="container yellow">position relative
+                <div id="sqr_4" class="square red">4 position static</div>
+                <div id="sqr_5" class="square green">5 position absolute</div>
+                <div id="sqr_6" class="square blue">6 position static</div>
+            </div>
+        </div>
+
+        <div class="box">Terzo esempio: il quadrato verde viene nascosto sotto il quadrato rosso. <br>
+            Questo perchè quello rosso è absolute e quindi fuori dal flusso del documento.
+            <div id="sqr_7" class="square red">1 position absolute</div>
+            <div id="sqr_8" class="square green">2 position relative</div>
+            <div id="sqr_9" class="square blue">3 position relative</div>
+        </div>
+
+
+    </body>
+</html>

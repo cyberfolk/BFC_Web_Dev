@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+}
+
+.background {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(img/airport.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /*relative -> Se non ci fosse, funzionerebbe lo stesso perche l'absolute si riferenzierebbe automaticamente rispetto a body*/
+}
+
+.layover {
+    height: 100vh;
+    width: 100wh;
+    /*Se la togliessi mi basterebbe [RIF]*/
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container {
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    color: lightgreen;
+}
+
+/* [RIF]
+Se togliessi "width: 100wh;" 
+Mi basta la seguente linea di codice
+.title, .subtitle {
+    margin: auto;
+} */

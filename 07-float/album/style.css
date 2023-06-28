@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.layout {
+    padding: 50px;
+}
+
+.add a {
+    font-size: 40px;
+    color: #3841d0;
+    text-decoration: none;
+    /*Toglie il sottolineato*/
+}
+
+.title {
+    margin: 50px 0;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    border-bottom: 1px solid lightgray;
+}
+
+.title a {
+    float: right;
+    color: #3841d0;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.album {
+    width: calc(100% / 6 - 20px);
+    margin: 10px;
+    height: 34vh;
+    /* border: 1px solid black; */
+    float: left;
+}
+
+.album > img {
+    width: 100%;
+}
+
+.album-title, .album-number {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.album-number {
+    color: gray;
+}
+
+/* Se non inserisco questa proprietà aggiuntiva non riusciro a vedere il container verde, perchè float ha delle problematiche. */
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: table;
+}

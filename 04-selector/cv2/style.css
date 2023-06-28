@@ -1,0 +1,16 @@
+header {
+  background-color: lightgray;
+  text-align: center;
+}
+hr {
+  border: 2px solid orange;
+}
+.section_title {
+  color: orange;
+}
+main {
+  padding: 8px;
+}
+h3 {
+  font-style: italic;
+}
