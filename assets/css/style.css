@@ -1,0 +1,191 @@
+/* #region Common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--tb-light);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    padding-bottom: 0.75rem;
+}
+
+:root {
+    --tb-shadow: #9d9d9d;
+    --tb-light: #f7f8f8;
+    --tb-ligher: #ffffff;
+    --tb-dark: #051930;
+    --tb-primary: #46adf0;
+    --tb-goals: #9d72e5;
+    --tb-recruiting: #64c1a8;
+    --tb-mobile: #f29e33;
+    --tb-website: #d962a1;
+    --tb-sales: #b1c927;
+    --tb-danger: red;
+}
+
+/* #endregion Common */
+
+/* #region Utility Classes */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.9rem;
+}
+
+.btn-primary {
+    background-color: var(--tb-primary);
+    color: var(--tb-ligher);
+}
+
+.btn-outline {
+    border: 1px solid var(--tb-shadow);
+    color: var(--tb-shadow);
+}
+
+.pl-3 {
+    padding-left: 3rem;
+}
+
+.py-1 {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.py-2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.my-2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    background-color: var(--tb-ligher);
+}
+
+.card-header {
+    border-bottom: 2px solid var(--tb-light);
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.list-unstyled {
+    list-style: none;
+}
+
+.badge {
+    font-size: 0.75rem;
+    border-radius: 1rem;
+    padding: 0.25rem 0.5rem;
+    color: var(--tb-ligher)
+}
+
+/* #region bg-colors */
+.bg-editorial {
+    background-color: var(--tb-primary);
+}
+
+.bg-goals {
+    background-color: var(--tb-goals);
+}
+
+.bg-recruiting {
+    background-color: var(--tb-recruiting);
+}
+
+.bg-mobile {
+    background-color: var(--tb-mobile);
+}
+
+.bg-website {
+    background-color: var(--tb-website);
+}
+
+.bg-sales {
+    background-color: var(--tb-sales);
+}
+
+/* #endregion bg-colors */
+
+
+/* #endregion Utility Classes */
+
+/* #region Header */
+#app-header {
+    padding: 0.75rem 2rem;
+    height: 60px;
+    background-color: var(--tb-ligher);
+    box-shadow: 0 0 10px var(--tb-shadow);
+}
+
+.logo {
+    height: 100%;
+}
+
+.logo_icon {
+    height: 100%;
+    vertical-align: middle;
+}
+
+.logo_text {
+    display: inline-block;
+    font-size: 2.5rem;
+    vertical-align: middle;
+    color: var(--tb-dark);
+}
+
+/* #endregion Header */
+
+/* #region main */
+
+.icon::before {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+    font-size: 0.65rem;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+.check::before {
+    content: "\2713";
+    border: 1px solid var(--tb-recruiting);
+    color: var(--tb-recruiting)
+}
+
+.cross::before {
+    content: "\2717";
+    border: 1px solid var(--tb-danger);
+    color: var(--tb-danger)
+}
+
+/* #endregion main */
+
+/* #region footer */
+#app-footer {
+    height: 60px;
+    background-color: var(--tb-ligher);
+    box-shadow: 0 0 10px var(--tb-shadow);
+    line-height: 60px;
+}
+
+/* #endregion footer */
