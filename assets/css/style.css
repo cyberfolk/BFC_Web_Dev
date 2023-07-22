@@ -1,0 +1,102 @@
+/* #region Common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
+h1 {
+    color: var(--h1-title);
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+:root {
+    --bg-profile: #0F0E17;
+    --bg-general: #FFFFFE;
+    --h1-title: #E53170;
+    --link: #9eccfd;
+    --shadow: #9d9d9d;
+    --dim-img: 100px;
+}
+
+/* #endregion Common */
+
+/* #region Utility Classes */
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.px-1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.mb-3 {
+    margin-bottom: 3rem;
+}
+
+.mb-1_5 {
+    margin-bottom: 1.5rem;
+}
+
+/* #endregion Utility Classes */
+
+/* #region Header */
+header > h1, p {
+    text-align: center;
+}
+
+/* #endregion Header */
+
+/* #region main */
+.profile {
+    float: left;
+    width: calc(100% / 3 - 2rem);
+    margin: 1.5rem 1rem;
+    box-shadow: 0 0 10px var(--shadow);
+    background-color: var(--bg-profile);
+
+}
+
+.profile_data {
+    padding: 0.75rem;
+    color: var(--bg-general);
+    line-height: 1.5rem;
+}
+
+.profile > img, .profile_data {
+    float: left;
+    height: var(--dim-img);
+}
+
+.profile_data > .name {
+    font-weight: bold;
+}
+
+.profile_data > .mail > a {
+    color: var(--link);
+}
+
+/* #endregion main */
+
+/* #region footer */
+/* #endregion footer */
